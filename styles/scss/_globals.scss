@@ -1,0 +1,31 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+a{
+    color: lightblue;
+}
+
+a:visited{
+    color: darkmagenta;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
