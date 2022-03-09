@@ -1,31 +1,38 @@
-*,*::before,*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    position: relative;
-    min-height: 100vh;
+body {
+  background-color: $clr-bg;
+  position: relative;
+  min-height: 100vh;
+  font-family: $ff-Manrope;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a{
-    color: lightblue;
+a {
+  color: lightblue;
 }
 
-a:visited{
-    color: darkmagenta;
+a:visited {
+  color: darkmagenta;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-img{
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
