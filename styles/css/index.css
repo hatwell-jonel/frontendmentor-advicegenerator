@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.3s ease;
 }
 
 body {
@@ -46,18 +47,24 @@ button {
   width: 100%;
   max-width: 550px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #4e5d73;
+  box-shadow: 0px 0px 20px 1px #4e5d73;
+  border-top: 1px solid #cee3e9;
+  border-right: 1px solid #cee3e9;
 }
 .advice-number {
+  text-transform: uppercase;
   color: #52ffa8;
   font-size: 0.8rem;
   font-weight: bold;
   letter-spacing: 2px;
+  animation: show 2s ease;
 }
 .advice-text {
   padding: 1.5rem 0rem;
+  animation: show 2s ease;
 }
 .advice-text .text {
+  font-weight: bold;
   color: #cee3e9;
   font-size: clamp(1rem, 5vw, 1.5rem);
 }
@@ -77,4 +84,13 @@ button {
 }
 .advice .button-dice:hover {
   box-shadow: 0px 0px 15px 2px #52ffa8;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

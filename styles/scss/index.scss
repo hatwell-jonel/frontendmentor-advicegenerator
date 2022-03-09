@@ -9,18 +9,24 @@
   width: 100%;
   max-width: 550px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px $clr-boxshadow;
+  box-shadow: 0px 0px 20px 1px $clr-boxshadow;
+  border-top: 1px solid $clr-text;
+  border-right: 1px solid $clr-text;
 
   &-number {
+    text-transform: uppercase;
     color: $clr-Neon-Green;
     font-size: 0.8rem;
     font-weight: bold;
     letter-spacing: 2px;
+    animation: show 2s ease;
   }
 
   &-text {
     padding: 1.5rem 0rem;
+    animation: show 2s ease;
     .text {
+      font-weight: bold;
       color: $clr-text;
       font-size: clamp(1rem, 5vw, 1.5rem);
     }
@@ -46,5 +52,14 @@
     &:hover {
       box-shadow: 0px 0px 15px 2px $clr-Neon-Green;
     }
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
