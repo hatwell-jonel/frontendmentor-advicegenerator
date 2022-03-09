@@ -9,9 +9,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -33,8 +30,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/api-html-sass-javascript-advice-generator-app-Kv9KnCaA0)
+- Live Site URL: [Click here](https://hatwell-jonel.github.io/frontendmentor-advicegenerator/)
 
 ### Built with
 
